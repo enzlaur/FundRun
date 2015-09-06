@@ -1,0 +1,304 @@
+<!-- 
+    Developed and designed by: LAURENZ TOLENTINO
+    COLLEGE OF COMPUTER STUDIES
+    COMPUTER SCIENCE - SOFTWARE TECHNOLOGY
+    laurenz@outlook.ph
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>FundRun</title>
+        <!-- Google styles -->        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'/>
+        <link href='http://fonts.googleapis.com/css?family=Vollkorn|Open+Sans:400,700' rel='stylesheet' type='text/css'/> 
+        
+        <!--Import materialize.css-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,700,900,500' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/animate.min.css"/>
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>	      
+        <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+        <link type="text/css" rel="stylesheet" href="css/animation.css"/>        
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/img/hack2015-favicon.png">
+        <!-- jquery -->
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>      
+                
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>   
+        <!-- Scroll Animation Initialize -->
+        <style> [data-sr] { visibility: hidden; } </style>        
+    </head>
+    <!-- Start of Body -->
+    <body class="white">
+        <!-- 
+            Navigation Area
+        -->
+        <div class="navbar-fixed ">
+            <nav class="white-trans">
+                <div class="nav-wrapper black-text">
+                    <div class="row">
+                        <div class="col s2 m1 right-border-grey">
+                            <p class="flow-text center green-text text-accent-3 roboto-700"
+                               style="margin-top: 0px;">
+                                FundRun
+                            </p>
+                        </div>
+                        <div class="col s5 m8 right-border-grey">
+                            <form>
+                                <div class="input-field">
+                                    <input id="search" type="search" required placeholder="Search">
+                                    <label for="search"><i class="material-icons">search</i></label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col s10 m3 right">
+                            <ul class="right hide-on-med-and-down black-text">
+                                <li>
+                                    <a href="#" class="green-text text-accent-3">
+                                        <i class="material-icons right black-text">
+                                            settings 
+                                        </i>
+                                        Settings
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="green-text text-accent-3">
+                                        <i class="material-icons right black-text">
+                                            lock_open
+                                        </i>
+                                        Sign Out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                                                
+                </div>
+            </nav>
+        </div>
+        <!-- 
+            Main Content
+        -->
+        <section>
+            <div class="row"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="row valign-wrapper">
+                                <div class="col s2">
+                                    <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                </div>
+                                <div class="col s7">
+                                    <h2 class="green-text text-accent-3 roboto-300">
+                                        Pedro Gil
+                                    </h2>
+                                    <button class="btn green accent-3">
+                                        Edit Profile
+                                    </button>
+                                </div>
+                                <div class="col s3">
+                                    <div class="card green accent-3">
+                                        <div class="card-content white-text">
+                                            <span>Distance Ran: </span>
+                                            <h2 class="no-margin">63 KM</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+                <div class="row">
+                    <div class="col s4">
+                        <div class="card">
+                            <div class="card-content">
+                                <p>
+                                    Birthdate: <br>
+                                    Sept. 3, 1995
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                "I believe that when you are running, you walk faster."
+                            </div>
+                            <div class="card-action">
+                                <span>Runs Attended</span>
+                                <span class="badge">4</span>
+                                <br>
+                                <span>Recent Posts</span>
+                                <span class="new badge green accent-3">2</span>
+                                <br>
+                                <span>Highest Place Finished:</span>
+                                <span class="badge">1st</span>
+                                <br>
+                                <span>Lowest Place Finished:</span>
+                                <span class="badge">143rd</span>
+                                <br>
+                                <span>Member Since: </span>
+                                <span class="badge">December 13, 2014</span>
+                            </div>
+                            <div class="card-action center">
+                                <button class="btn green accent-3">
+                                    View All Badges
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s8">
+                        <div class="card">
+                            <div class="card-action">
+                                <div class="row valign">
+                                    <div class="col s1">
+                                        <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                    </div>
+                                    <div class="col s10">
+                                        <span>
+                                            <b>Commented on: </b>                                            
+                                            <a href="events/takbo-batangas.html" class="green-text text-accent-3">
+                                                Takbo Batangas 2015!
+                                            </a>
+                                            <br>
+                                        </span>
+                                        <span>
+                                            So where's my free shirt?
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row valign">
+                                    <div class="col s1">
+                                        <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                    </div>
+                                    <div class="col s10">
+                                        <span>
+                                            <b>Just Finished: </b>                                            
+                                            <a href="events/takbo-batangas.html" class="green-text text-accent-3">
+                                                Takbo Batangas 2015!
+                                            </a>
+                                            <br>
+                                        </span>
+                                        <span>
+                                            That event was unbelievable!!
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row valign">
+                                    <div class="col s1">
+                                        <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                    </div>
+                                    <div class="col s10">
+                                        <span>
+                                            <b>Just Finished: </b>                                            
+                                            <a href="events/takbo-batangas.html" class="green-text text-accent-3">
+                                                Boysen: Kulay ng Manila 2015!!
+                                            </a>
+                                            <br>
+                                        </span>
+                                        <span>
+                                            I JUST FINISHED 21KM IN 3 MINUTES!!!
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row valign">
+                                    <div class="col s1">
+                                        <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                    </div>
+                                    <div class="col s10">
+                                        <span>
+                                            Any place where I can just run my self over?
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row valign">
+                                    <div class="col s1">
+                                        <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                    </div>
+                                    <div class="col s10">
+                                        <span>
+                                            Just played <b> Slow Motion - Treyz Motion </b> on
+                                            <b class="green-text text-accent-4">Spotifite Freemium </b>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <div class="row valign">
+                                    <div class="col s1">
+                                        <img src="assets/img/pedro-gil.jpg" class="circle responsive-img"
+                                         style="overflow: hidden;">
+                                    </div>
+                                    <div class="col s10">
+                                        <span>
+                                            Shared something on <b class="blue-text text-darken-3">Instagal</b>
+                                            <br><br>
+                                            <img class="responsive-img" src="assets/img/instagal-post.jpg">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <h5 class="center green-text text-accent-3">
+                                    Server too sleepy to load.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="page-footer green accent-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text roboto-700">
+                            FundRun
+                        </h5>
+                        <p class="grey-text text-lighten-4">
+                            You can use rows and columns here to organize your footer content.
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2015 FundRun, Inc.
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+        
+        <!-- 
+            Javascript only
+        -->        
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+      	<script type="text/javascript" src="js/materialize.min.js"></script>        
+        <script src='js/scrollReveal.min.js'></script>
+        <script src="js/laurenz.js"></script>
+         
+        <script>
+             window.sr = new scrollReveal();
+        </script>
+    </body>
+</html>
